@@ -193,3 +193,39 @@ button {
 }
 
 
+/* css for blog */
+.blog-container{
+  margin: 5%;
+}
+h1{
+  color: #9dffad;
+  text-align: center;
+  font-size:xx-large;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+.blog-container h3{
+  color: #eb6565;
+  font-weight: 400;
+}
+.blog{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    92.49deg,
+    rgba(255, 255, 255, 0.1) 0.18%,
+    rgba(255, 255, 255, 0.05) 99.85%
+  );
+  backdrop-filter: blur(5px);
+  margin-bottom: 30px;
+}
+.list {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+}

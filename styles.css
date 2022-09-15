@@ -196,6 +196,7 @@ button {
   .card {
     flex-direction: column;
   }
+  /* responsive for smll device */
   @media only screen and (max-width: 480px) {
     #histories{
      grid-template-columns: repeat(1, 1fr);
